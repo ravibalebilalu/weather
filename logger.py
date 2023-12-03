@@ -1,7 +1,7 @@
 import logging
 import os
 
-LOG_FILE = "my_log_file.log"
+LOG_FILE = "weather_log.log"
 logs_path = os.path.join(os.getcwd(), "logs")
 os.makedirs(logs_path, exist_ok=True)
 
